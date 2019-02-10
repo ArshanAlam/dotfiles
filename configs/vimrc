@@ -15,3 +15,11 @@ set smartindent
 
 " Display line numbers
 set number
+
+
+" Enable mouse
+set mouse=a
+
+
+" Set encoding
+set encoding=utf-8

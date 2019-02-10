@@ -6,4 +6,7 @@ CONFIG_DIR="$CUR_DIR/configs"
 
 # setup all the configs with this system
 printf "\nsource $CONFIG_DIR/bashrc\n" >> ~/.bashrc
-printf "\nsource $CONFIG_DIR/vimrc\n" >> ~/.vimrc
+
+rm -rf ~/.vimrc ~/.tmux.conf
+ln -s $CONFIG_DIR/vimrc ~/.vimrc
+ln -s $CONFIG_DIR/tmux ~/.tmux.conf
