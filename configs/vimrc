@@ -23,3 +23,22 @@ set mouse=a
 
 " Set encoding
 set encoding=utf-8
+set fileencoding=utf-8
+set fileencodings=utf-8
+
+
+" Set the backspace
+set backspace=indent,eol,start
+
+
+" Seaching
+" highlight all search, add incremental search,
+" ignore case, and use smart case
+set hlsearch
+set incsearch
+set ignorecase
+set smartcase
+
+
+" Display the ruler
+set ruler
