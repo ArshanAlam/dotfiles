@@ -42,3 +42,10 @@ set smartcase
 
 " Display the ruler
 set ruler
+
+
+" Show the command at the bottom
+set showcmd
+
+
+
