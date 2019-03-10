@@ -1,0 +1,2 @@
+# Miniconda config
+export PATH=$HOME/miniconda/bin:$PATH

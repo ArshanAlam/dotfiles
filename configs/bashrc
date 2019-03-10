@@ -5,3 +5,9 @@ alias grep='grep --color=auto'
 
 # set the prompt
 export PS1='[ \[\]\[\033[38;5;39m\]\t\[\]\[\033[38;5;15m\] ] \[\]\[\033[38;5;105m\]\u\[\]\[\033[38;5;15m\]@\[\]\[\033[38;5;160m\]\h\[\]\[\033[38;5;15m\] \[\]\[\033[38;5;10m\]\W\[\]\[\033[38;5;15m\] \$ \[\]'
+
+
+# Setup all other custom configs
+CUR_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" >/dev/null 2>&1 && pwd )"
+
+source $CUR_DIR/miniconda
