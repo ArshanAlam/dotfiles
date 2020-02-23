@@ -1,7 +1,7 @@
 # set alias for common commands
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
-
+alias gw='./gradlew'
 
 # set the prompt
 export PS1='[ \[\]\[\033[38;5;39m\]\t\[\]\[\033[38;5;15m\] ] \[\]\[\033[38;5;105m\]\u\[\]\[\033[38;5;15m\]@\[\]\[\033[38;5;160m\]\h\[\]\[\033[38;5;15m\] \[\]\[\033[38;5;10m\]\W\[\]\[\033[38;5;15m\] \$ \[\]'
